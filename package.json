@@ -1,0 +1,17 @@
+{
+  "name": "coolnodeapp",
+  "version": "1.0.0",
+  "description": "node app ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.7",
+    "chart.js": "^4.3.0",
+    "chartjs-chart-graph": "^4.2.0",
+    "d3": "^7.8.4",
+    "d3-force": "^3.0.0",
+    "express": "^4.18.2"
+  }
+}
