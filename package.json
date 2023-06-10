@@ -1,11 +1,21 @@
 {
   "name": "coolnodeapp",
   "version": "1.0.0",
-  "description": "node app ",
+  "description": "App",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
   "dependencies": {
     "ejs": "^3.1.7",
     "chart.js": "^4.3.0",
