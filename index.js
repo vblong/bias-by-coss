@@ -19,6 +19,6 @@ app.use("/by_commission", commissionRoutes);
 app.use("/by_omission", omissionRoutes);
 app.use("/by_source_selection", sourceSelectionRoutes);
 
-app.listen(port, () => {
+app.listen(process.env.PORT || 80, () => {
   console.log(`Media bias analysis - Visualization`);
 });
