@@ -35,7 +35,6 @@ exports.getNodes = (topic) => {
   let graph = topic.graph;
   let nodes = graph.nodes.map((i) => {
     return {
-      // ...i,
       id: i.id,
       label: String(i.label),
       color: i.color,
